@@ -225,14 +225,14 @@ a {
 .sneaker:nth-child(3)::after {
   animation: borderGradientTo 0.5s 1.6s linear alternate,
     borderGradientFrom 0.5s 2.1s linear alternate;
-}
+}*/
 
 .sneaker img {
   border-radius: 12px 12px 0 0;
   margin-bottom: -0.8px;
 }
 
-.sneaker:nth-child(1):hover,
+/*.sneaker:nth-child(1):hover,
 .sneaker:nth-child(2):hover,
 .sneaker:nth-child(3):hover {
   transform: translate(0px, -10px);
@@ -254,11 +254,11 @@ a {
 }
 .sneaker:nth-child(3) {
   animation: jump 0.3s 1.6s ease-out, down 0.5s 1.9s;
-}
+}*/
 .sneaker img{
   border-radius: 12px;
 }
-@keyframes jump {
+/*@keyframes jump {
   from {
     transform: translate(0px, 0px);
     box-shadow: 0 4px 4px 0px rgba(0, 0, 0, 0.25);
