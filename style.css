@@ -184,13 +184,14 @@ a {
   border-radius: 12px;
   display: flex;
   flex-direction: column;
-  transition: all 0.1s ease-in-out;
+  transition: all 0.2s ease-in-out;
   cursor: pointer;
   position: relative;
   background-color: #fff;
   border-radius: 12px;
   z-index: 1;
 }
+
 /* пока думаю над анимацией */
 /*.sneaker:hover:nth-child(1).sneaker::after {
   background-size: 400% 600%;
