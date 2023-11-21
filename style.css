@@ -130,6 +130,12 @@ a {
   background-color: #fff;
   margin-bottom: 25px;
   border-bottom: 1px solid #a1a6b4;
+
+
+  position: sticky;
+  left: 0;
+  top: 0;
+  z-index: 999;
 }
 .header__nav,
 .footer__nav {
