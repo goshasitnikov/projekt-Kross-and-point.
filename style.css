@@ -193,7 +193,8 @@ a {
 }
 
 /* пока думаю над анимацией */
-/*.sneaker:hover:nth-child(1).sneaker::after {
+/*
+.sneaker:hover:nth-child(1).sneaker::after {
   background-size: 400% 600%;
 }
 .sneaker:hover:nth-child(2).sneaker::after {
@@ -201,8 +202,9 @@ a {
 }
 .sneaker:hover:nth-child(3).sneaker::after {
   background-size: 400% 600%;
-}*/
-/*.sneaker::after {
+}
+*/
+.sneaker::after {
   content: "";
   position: absolute;
   top: -2px;
@@ -225,20 +227,20 @@ a {
 .sneaker:nth-child(3)::after {
   animation: borderGradientTo 0.5s 1.6s linear alternate,
     borderGradientFrom 0.5s 2.1s linear alternate;
-}*/
+}
 
 .sneaker img {
   border-radius: 12px 12px 0 0;
   margin-bottom: -0.8px;
 }
-
-/*.sneaker:nth-child(1):hover,
+/*
+.sneaker:nth-child(1):hover,
 .sneaker:nth-child(2):hover,
 .sneaker:nth-child(3):hover {
   transform: translate(0px, -10px);
   box-shadow: 0 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
-
+/*
 .sneaker:nth-child(1):active,
 .sneaker:nth-child(2):active,
 .sneaker:nth-child(3):active {
@@ -254,11 +256,8 @@ a {
 }
 .sneaker:nth-child(3) {
   animation: jump 0.3s 1.6s ease-out, down 0.5s 1.9s;
-}*/
-.sneaker img{
-  border-radius: 12px;
 }
-/*@keyframes jump {
+@keyframes jump {
   from {
     transform: translate(0px, 0px);
     box-shadow: 0 4px 4px 0px rgba(0, 0, 0, 0.25);
@@ -278,6 +277,8 @@ a {
     box-shadow: 0;
   }
 }
+*/
+/*пока думаю над анимацией*/
 @keyframes borderGradientTo {
   from {
     background-size: 400% 150%;
@@ -293,13 +294,13 @@ a {
   to {
     background-size: 400% 150%;
   }
-}*/
-/*пока думаю над анимацией*/
+}
 
 .sneaker:hover {
   transform: translate(0px, -10px);
   box-shadow: 0 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
+
 .sneaker:active {
   transform: translate(0px, -10px) scale(0.98);
   box-shadow: 0 4px 4px 0px rgba(0, 0, 0, 0.1);
@@ -363,6 +364,14 @@ a {
 
 /* PAGE OF SNEAKER START ======================= */
 
+main {
+  padding: 0 150px;
+}
+
+.container {
+  padding: 32px 0;
+}
+
 .sneaker-big {
   padding: 48px;
   background-color: #fff;
@@ -420,17 +429,69 @@ a {
   gap: 15px;
   justify-content: space-between;
 }
+
 .sneaker-big__parameter-info p:last-child {
   text-align: right;
 }
+
 .sneaker-big__parameter-info:not(:last-child) {
   margin-bottom: 20px;
   padding-bottom: 24px;
 }
+
 .sneaker-big__parameter-info:last-child {
   padding-bottom: 20px;
 }
 
+.sneaker-similar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  align-self: stretch;
+}
+
+.sneaker-similar__title {
+  color: black;
+  font-family: Anonymous Pro, monospace;
+  font-size: 48px;
+  font-weight: 700;
+  display: flex;
+  align-self: stretch;
+}
+
+.sneaker-similar__sneaker {
+  display: flex;
+  align-items: flex-start;
+  gap: 24px;
+  align-self: stretch;
+}
+
+.sneaker-similar__card {
+  display: flex;
+  width: 364px;
+  flex-direction: column;
+  align-items: flex-start;
+  border-radius: 12px;
+}
+
+.sneaker-similar__card-image {
+  height: 100%;
+  background-color: white;
+  border-radius: 12px 12px 0 0;
+}
+
+.sneaker-similar__card-text {
+  display: flex;
+  padding: 32px 24px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 12px;
+  background-color: white;
+  border-radius: 0 0 12px 12px;
+}
 /* PAGE OF SNEAKER ======================= */
 
 /* MEDIA */
