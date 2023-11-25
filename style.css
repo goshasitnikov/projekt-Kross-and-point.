@@ -454,7 +454,7 @@ main {
 
 .sneaker-similar__title {
   color: black;
-  font-family: Anonymous Pro, monospace;
+  font-family: "Anonymous Pro", monospace;
   font-size: 48px;
   font-weight: 700;
   display: flex;
@@ -491,6 +491,24 @@ main {
   gap: 12px;
   background-color: white;
   border-radius: 0 0 12px 12px;
+}
+
+.sneaker-similar__info-title {
+  color: black;
+  font-family: "Anonymous Pro", monospace;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.sneaker-similar__info-subtitle {
+  color: black;
+  font-family: "Anonymous Pro", monospace;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 /* PAGE OF SNEAKER ======================= */
 
