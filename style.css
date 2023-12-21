@@ -216,6 +216,7 @@ a {
   z-index: -1;
   border-radius: 13px;
 }
+/*
 .sneaker:nth-child(1)::after {
   animation: borderGradientTo 0.5s 1s linear alternate,
     borderGradientFrom 0.5s 1.5s linear alternate;
@@ -228,7 +229,7 @@ a {
   animation: borderGradientTo 0.5s 1.6s linear alternate,
     borderGradientFrom 0.5s 2.1s linear alternate;
 }
-
+*/
 .sneaker img {
   border-radius: 12px 12px 0 0;
   margin-bottom: -0.8px;
@@ -277,8 +278,7 @@ a {
     box-shadow: 0;
   }
 }
-*/
-/*пока думаю над анимацией*/
+
 @keyframes borderGradientTo {
   from {
     background-size: 400% 150%;
@@ -294,8 +294,8 @@ a {
   to {
     background-size: 400% 150%;
   }
-}
-
+} */
+/*пока думаю над анимацией*/
 .sneaker:hover {
   transform: translate(0px, -10px);
   box-shadow: 0 4px 4px 0px rgba(0, 0, 0, 0.25);
@@ -364,9 +364,9 @@ a {
 
 /* PAGE OF SNEAKER START ======================= */
 
-main {
+/*main {
   padding: 0 150px;
-}
+}*/
 
 .container {
   padding: 32px 0;
